@@ -1,0 +1,20 @@
+{
+  "autoload": {
+    "classmap": [
+      "app"
+    ]
+  },
+  "require": {
+    "php": ">=5.3.0",
+    "xinson/minor-framework": "dev-master"
+  },
+  "config": {
+    "secure-http": false
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
